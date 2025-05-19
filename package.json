@@ -1,7 +1,7 @@
 {
   "name": "testing",
   "homepage": "https://demo.amaxjobs.com",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -15,15 +15,14 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
- "scripts": {
-  "start": "cross-env GENERATE_SOURCEMAP=false react-scripts start",
-  "build": "npm version patch && cross-env GENERATE_SOURCEMAP=false react-scripts build",
-  "minor": "npm version minor && cross-env GENERATE_SOURCEMAP=false react-scripts build",
-  "major": "npm version major && cross-env GENERATE_SOURCEMAP=false react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-}
-,
+  "scripts": {
+    "start": "cross-env GENERATE_SOURCEMAP=false react-scripts start",
+    "build": "npm version patch && cross-env GENERATE_SOURCEMAP=false react-scripts build",
+    "minor": "npm version minor && cross-env GENERATE_SOURCEMAP=false react-scripts build",
+    "major": "npm version major && cross-env GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
