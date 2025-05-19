@@ -1,6 +1,6 @@
 {
   "name": "testing",
-  "homepage": "https://demo.amaxjobs.com/",
+  "homepage": "https://demo.amaxjobs.com",
   "version": "0.1.4",
   "private": true,
   "dependencies": {
